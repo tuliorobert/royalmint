@@ -34,6 +34,18 @@ body {
     margin-right: 5px;
 }
 
+.form button {
+    background: rgb(0, 204, 143);
+    border: none;
+    padding: 10px 25px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.form button:hover {
+    background: rgb(2, 110, 60);
+}
+
 @media screen and (max-width: 1050px) {
     .form {
         width: auto;

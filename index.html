@@ -33,12 +33,29 @@
                 <div class="form-group">
                     <label for="idade"><i class="fas fa-birthday-cake"></i> Idade</label>
                     <input type="number" class="form-control" id="idade" placeholder="Sua idade">
-                    <small>Teste</small>
+                    <small>Idade mínima: 17</small>
                 </div>
                 <div class="form-group">
-                    <label for="select"><i class="fas fa-shield-alt"></i> Estilo de Jogo</label>
+                    <label for="style"><i class="fas fa-gamepad"></i> Estilo de jogo</label>
+                    <select name="style" id="style" class="form-control">
+                        <option value="estilo" selected disabled>Como você joga o game?</option>
+                        <optgroup label="Casual">
+                            <option value="quest">Jogo para fazer as quests do game e me divertir</option>
+                            <option value="lifeskill">Jogo para melhorar as lifeskills e ganhar uma grana</option>
+                            <option value="friendly">Jogo para passar um tempo com meus amigos no game</option>
+                        </optgroup>
+                        <optgroup label="Competitivo">
+                            <option value="level">Jogo para ficar o mais forte possível e ficar sempre no topo</option>
+                            <option value="pvp">Jogo para participar de qualquer evento PVP</option>
+                            <option value="faction">Jogo para fazer as quests PVP da facção para ajudar a aumentar a influência nos territórios</option>
+                        </optgroup>
+                    </select>
+                    <small>Selecione o que mais se encaixa em você!</small>
+                </div>
+                <div class="form-group">
+                    <label for="select"><i class="fas fa-shield-alt"></i> Role</label>
                     <select name="select" id="select" class="form-control">
-                        <option value="select" selected disabled>Selecione seu estilo de jogo</option>
+                        <option value="select" selected disabled>Selecione sua Role</option>
                         <optgroup label="DPS">
                             <option value="ranged">Ranged</option>
                             <option value="mage">Mago</option>
