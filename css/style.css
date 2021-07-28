@@ -1,6 +1,10 @@
 :root {
-    --primary: hsla(120, 97%, 63%, 0.65);
-    --secondary: hsla(160, 80%, 63%, 0.65);
+    --primary: hsla(138, 97%, 63%, 0.562);
+    --secondary: hsla(140, 100%, 32%, 0.65);
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -13,4 +17,25 @@ body {
 
     background: linear-gradient(135deg, var(--primary), var(--secondary)),
                 url(../img/wallpaper.png) no-repeat center center / cover;
+}
+
+.form {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(189, 189, 189);
+    width: 100vh;
+}
+
+.form i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 1050px) {
+    .form {
+        width: auto;
+    }
 }

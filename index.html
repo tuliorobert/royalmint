@@ -1,12 +1,64 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Formulário - Royal Mint</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Formulário do clã Royal Mint (Saqueadores)"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <title>Formulário - Royal Mint</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     </head>
 
     <body>
+        <main>
+            <form class="form">
+                <!--IMAGE-->
+                <img src="img/logo.png" alt="logo" style="display: block; margin: auto;" width="250" height="200">
+
+                <!--FORM-->
+
+                <div class="form-group">
+                  <label for="name"><i class="fa fa-user" aria-hidden="true"></i> Nome</label>
+                  <input type="email" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Nome do seu personagem">
+                </div>
+                <div class="form-group">
+                  <label for="discord"><i class="fab fa-discord"></i> Tag do Discord</label>
+                  <input type="text" class="form-control" id="discord" placeholder="NICK#0000">
+                </div>
+                <div class="form-group">
+                    <label for="idade"><i class="fas fa-birthday-cake"></i> Idade</label>
+                    <input type="number" class="form-control" id="idade" placeholder="Sua idade">
+                    <small>Teste</small>
+                </div>
+                <div class="form-group">
+                    <label for="select"><i class="fas fa-shield-alt"></i> Estilo de Jogo</label>
+                    <select name="select" id="select" class="form-control">
+                        <option value="select" selected disabled>Selecione seu estilo de jogo</option>
+                        <optgroup label="DPS">
+                            <option value="ranged">Ranged</option>
+                            <option value="mage">Mago</option>
+                            <option value="melee">Melee</option>
+                        </optgroup>
+                        <optgroup label="Tank">
+                            <option value="tank">Tank</option>
+                        </optgroup>
+                        <optgroup label="Healer">
+                            <option value="healer">Healer</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+        </main>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/d9f9d13dbd.js" crossorigin="anonymous"></script>
     </body>
 </html>
