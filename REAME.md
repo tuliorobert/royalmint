@@ -1,0 +1,1 @@
+Projeto desenvolvido para servir como formulário da guilda "Royal Mint" do game "New World".
