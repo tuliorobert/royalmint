@@ -9,6 +9,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
         <title>Formulário - Royal Mint</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,200&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -53,9 +56,9 @@
                     <select name="Role" id="select" class="form-control" required>
                         <option value="select" selected disabled>Selecione sua Role</option>
                         <optgroup label="DPS">
-                            <option value="ranged">Ranged</option>
-                            <option value="mage">Mago</option>
-                            <option value="melee">Melee</option>
+                            <option value="DPS - Ranged">Ranged</option>
+                            <option value="DPS - Mage">Mage</option>
+                            <option value="DPS - Melee">Melee</option>
                         </optgroup>
                         <optgroup label="Tank">
                             <option value="tank">Tank</option>
@@ -67,7 +70,7 @@
                 </div>
                 <div class="form-group">
                     <label for="motivo">Qual é o seu objetivo com a guilda?</label>
-                    <textarea name="Motivo" id="motivo" cols="30" rows="3" class="form-control" placeholder="Conte-nos seus objetivos com a nossa guilda." requiredcl></textarea>
+                    <textarea name="Motivo" id="motivo" cols="30" rows="3" class="form-control" placeholder="Conte-nos seus objetivos com a nossa guilda." required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
               </form>
