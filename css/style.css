@@ -1,53 +1,35 @@
-:root {
-    --primary: hsla(138, 97%, 63%, 0.562);
-    --secondary: hsla(140, 100%, 32%, 0.65);
-}
-
-html {
-    font-family: 'Roboto', sans-serif;
-    height: 100%;
-}
-
 body {
-    display: grid;
-    place-items: center;
-    place-content: center;
-    margin-top: 0;
-    height: 100%;
-
-    background: linear-gradient(135deg, var(--primary), var(--secondary)),
-                url(../img/wallpaper.png) no-repeat center center / cover;
+    background: linear-gradient(90deg, rgba(0,255,29,0.3477766106442577) 0%, rgba(0,255,158,0.29175420168067223) 100%),
+    url(../img/wallpaper.png);
 }
 
-.form {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 50px;
+form {
+    margin: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
     border-radius: 10px;
-    font-weight: bold;
-    font-size: 15px;
-    color: rgb(189, 189, 189);
-    width: 100vh;
+    color: #FFF;
 }
 
-.form i {
-    font-size: 20px;
-    margin-right: 5px;
+form i {
+    font-size: 19px;
+    margin-right: 8px;
 }
 
-.form button {
-    background: rgb(0, 204, 143);
+.btn {
+    background: rgb(0, 131, 131);
     border: none;
-    padding: 10px 25px;
-    margin-top: 15px;
     font-weight: bold;
+    font-size: 18px;
 }
 
-.form button:hover {
-    background: rgb(2, 110, 60);
+.btn:hover {
+    background: rgb(0, 202, 108);
 }
 
-@media screen and (max-width: 1050px) {
-    .form {
-        width: auto;
+@media screen and (max-width: 700px) {
+    form {
+        margin: 0;
+        padding: 10px;
     }
 }
