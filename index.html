@@ -24,19 +24,19 @@
 
                 <div class="form-group">
                   <label for="name"><i class="fa fa-user" aria-hidden="true"></i> Nome</label>
-                  <input type="text" name="Nome" class="form-control" id="name" aria-describedby="name" placeholder="Nome do seu personagem">
+                  <input type="text" name="Nome" class="form-control" id="name" aria-describedby="name" placeholder="Nome do seu personagem" required>
                 </div>
                 <div class="form-group">
                   <label for="discord"><i class="fab fa-discord"></i> Tag do Discord</label>
-                  <input type="text" name="Discord" class="form-control" id="discord" placeholder="NICK#0000">
+                  <input type="text" name="Discord" class="form-control" id="discord" placeholder="NICK#0000" required>
                 </div>
                 <div class="form-group">
                     <label for="idade"><i class="fas fa-birthday-cake"></i> Idade</label>
-                    <input type="number" name="Idade" class="form-control" id="idade" placeholder="Sua idade">
+                    <input type="number" name="Idade" class="form-control" id="idade" placeholder="Sua idade" required>
                 </div>
                 <div class="form-group">
                     <label for="style"><i class="fas fa-gamepad"></i> Estilo de jogo</label>
-                    <select name="Estilo de jogo" id="style" class="form-control">
+                    <select name="Estilo de jogo" id="style" class="form-control" required>
                         <option value="estilo"  selected disabled>Como você joga o game?</option>
                         <optgroup label="Casual">
                             <option value="Jogo para fazer as quests do game e me divertir">Jogo para fazer as quests do game e me divertir</option>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="form-group">
                     <label for="select"><i class="fas fa-shield-alt"></i> Role</label>
-                    <select name="Role" id="select" class="form-control">
+                    <select name="Role" id="select" class="form-control" required>
                         <option value="select" selected disabled>Selecione sua Role</option>
                         <optgroup label="DPS">
                             <option value="ranged">Ranged</option>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="form-group">
                     <label for="motivo">Qual é o seu objetivo com a guilda?</label>
-                    <textarea name="Motivo" id="motivo" cols="30" rows="3" class="form-control" placeholder="Conte-nos seus objetivos com a nossa guilda."></textarea>
+                    <textarea name="Motivo" id="motivo" cols="30" rows="3" class="form-control" placeholder="Conte-nos seus objetivos com a nossa guilda." required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
               </form>
