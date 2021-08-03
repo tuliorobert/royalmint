@@ -29,6 +29,18 @@ form i {
     background: rgb(0, 202, 108);
 }
 
+.footer {
+    background: rgb(0, 63, 21);
+}
+
+.copyright p {
+    margin: 10px 0 0 0;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 700px) {
     body {
         background: linear-gradient(90deg, rgba(0,255,29,0.3477766106442577) 0%, rgba(0,255,158,0.29175420168067223) 100%),
@@ -37,5 +49,9 @@ form i {
     form {
         margin: 0;
         padding: 10px;
+    }
+
+    .copyright p {
+        font-size: 12px;
     }
 }
