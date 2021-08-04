@@ -38,10 +38,6 @@ form i {
     background: rgb(0, 202, 108);
 }
 
-.btn:active {
-    background: #FFF;
-}
-
 .footer {
     background: rgba(0, 63, 21, 0.178);
 }
