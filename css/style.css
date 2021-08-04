@@ -1,71 +1,79 @@
 body {
-    background: linear-gradient(90deg, rgba(81, 170, 92, 0.171) 0%, rgba(0, 255, 157, 0.178) 100%),
+  background: linear-gradient(
+      90deg,
+      rgba(105, 160, 111, 0.171) 0%,
+      rgba(123, 250, 201, 0.178) 100%
+    ),
     url(../img/wallpaper.png);
-    font-family: 'Exo 2', sans-serif;
-    letter-spacing: 2px;
+  font-family: "Exo 2", sans-serif;
+  letter-spacing: 2px;
 }
 
 form {
-    width: 50%;
-    margin: 50px auto;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 30px;
-    border-radius: 10px;
-    color: #FFF;
+  width: 50%;
+  margin: 50px auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
 }
 
 .form-inputs {
-    color: #000;
-    font-weight: bold;
+  color: #000;
+  font-weight: bold;
 }
 
 form i {
-    font-size: 19px;
-    margin-right: 8px;
+  font-size: 19px;
+  margin-right: 8px;
 }
 
 .btn {
-    background: rgb(28, 184, 119);
-    border: none;
-    font-weight: bold;
-    font-size: 18px;
-    display: block;
-    margin: auto;
-    padding: 10px 80px;
+  background: rgb(49, 131, 185);
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  padding: 10px 80px;
 }
 
 .btn:hover {
-    background: rgb(0, 202, 108);
+  background: rgb(0, 202, 108);
 }
 
 .btn:active {
-    background: #FFF;
+  background: #fff;
 }
 
 .footer {
-    background: rgba(0, 63, 21, 0.178);
+  background: rgba(0, 63, 21, 0.178);
 }
 
 .copyright p {
-    margin: 0;
-    padding: 10px 0;
-    color: white;
-    text-align: center;
-    font-weight: bold;
+  margin: 0;
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 700px) {
-    body {
-        background: linear-gradient(90deg, rgba(81, 170, 92, 0.171) 0%, rgba(0, 255, 157, 0.178) 100%),
-        url(../img/wallpaper2.png);
-    }
-    form {
-        margin: 0;
-        padding: 10px;
-        width: 100%;
-    }
+  body {
+    background: linear-gradient(
+        90deg,
+        rgba(81, 170, 92, 0.171) 0%,
+        rgba(0, 255, 157, 0.178) 100%
+      ),
+      url(../img/wallpaper2.png);
+  }
+  form {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  }
 
-    .copyright p {
-        font-size: 12px;
-    }
+  .copyright p {
+    font-size: 12px;
+  }
 }
