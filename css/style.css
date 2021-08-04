@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(90deg, rgba(0,255,29,0.3477766106442577) 0%, rgba(0,255,158,0.29175420168067223) 100%),
     url(../img/wallpaper.png);
-    font-family: 'Georama', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     letter-spacing: 2px;
 }
 
@@ -11,6 +11,11 @@ form {
     padding: 20px;
     border-radius: 10px;
     color: #FFF;
+}
+
+.form-inputs {
+    color: #000;
+    font-weight: bold;
 }
 
 form i {
