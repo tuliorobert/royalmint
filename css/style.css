@@ -9,7 +9,7 @@ form {
     width: 50%;
     margin: 50px auto;
     background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     color: #FFF;
 }
@@ -25,14 +25,21 @@ form i {
 }
 
 .btn {
-    background: rgb(0, 131, 131);
+    background: rgb(28, 184, 119);
     border: none;
     font-weight: bold;
     font-size: 18px;
+    display: block;
+    margin: auto;
+    padding: 10px 80px;
 }
 
 .btn:hover {
     background: rgb(0, 202, 108);
+}
+
+.btn:active {
+    background: #FFF;
 }
 
 .footer {
